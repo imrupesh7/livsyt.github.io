@@ -1,0 +1,669 @@
+:root {
+    --main-color: #088c7e;
+    --second-color: #ffcc00;
+    --third-color: #003334;
+    --four-color: #007a6d;
+}
+
+@media(max-width:1200px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    .menu {
+        width: 60%;
+    }
+
+    /* our - solutions */
+
+    .our-solution-inner img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .ai-driven-operation h6 {
+        font-size: 1.7rem;
+    }
+
+    .our-solution-icon-container {
+        margin: 0 0;
+    }
+
+    .software-heding {
+        margin: 3rem 0;
+        font-size: 1.3rem;
+    }
+
+    .key-pointer-sub-container2-inner {
+        height: 140px;
+    }
+
+}
+
+@media(max-width:992px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    #croos {
+        font-size: 2rem;
+        position: absolute;
+        top: 0px;
+        right: -30px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-color: var(--second-color);
+        display: grid;
+        place-items: center;
+    }
+
+
+    #bars {
+        display: block;
+        cursor: pointer;
+        color: var(--main-color);
+        transition: all 0.5s;
+    }
+
+
+    #cross {
+        color: white;
+        font-size: 2rem;
+    }
+
+    #bars:hover {
+        color: #ffcc00;
+    }
+
+    .menu {
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        width: 30%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.703);
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5%;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+
+    .menu ul {
+        display: block;
+        list-style: none;
+    }
+
+    .menu ul li {
+        margin: 2rem 0rem;
+        font-size: 2rem;
+
+    }
+
+    .menu ul li a {
+        color: white;
+        font-family: kontra-regular;
+    }
+
+
+    .banner a {
+        display: none;
+    }
+
+
+    .project-level-container br,
+    .services br,
+    .team-container br,
+    .value-container br {
+        display: none;
+    }
+
+
+
+    .icon-inner img {
+        width: 40px !important;
+        height: 40px !important;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .team-inner {
+        width: 48%;
+        margin: 1rem 0;
+    }
+
+    .icon-inner:nth-child(2)::after {
+        border-right: none;
+    }
+
+    .icon-inner:nth-child(4)::after {
+        border-right: none;
+    }
+
+
+
+    .profile-text p {
+        padding: 0 10%;
+    }
+
+    .value-innerbox {
+        width: 48%;
+    }
+
+
+    /* banifits page */
+
+    .benifits-main-img img {
+        height: 300px;
+        object-fit: contain;
+    }
+
+
+
+    .table thead tr th {
+        font-size: 13px;
+    }
+
+    tbody th {
+        font-size: 12px;
+    }
+
+    tfoot th {
+        font-size: 10px;
+    }
+
+    .table tr td h6 {
+        font-size: 13px;
+    }
+
+    .table tr td p {
+        font-size: 11px;
+    }
+
+    .fa-check,
+    .fa-times {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 1rem;
+    }
+
+
+
+    /* about-us  */
+
+
+
+
+
+
+    /* our-solution*/
+
+    .our-solution-inner img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .available-logos img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .key-slove-icon {
+        margin: 2rem 0;
+    }
+    .contact-us-container {
+        padding: 3rem 5%;}
+
+        .form-container {
+            width: 100%;
+          }
+
+
+          .conatct-info {
+            width: 100%;}
+
+            .conatct-info p br{
+                display: none;
+            }
+
+
+            /* media page  */
+
+            .article{
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+
+            .linkedin{
+                width: 100%;
+            }
+
+}
+
+
+@media(max-width:768px) {
+    /*     
+    html {
+        font-size: 52%;
+    } */
+
+    .menu {
+        width: 50%;
+    }
+
+    .logo {
+        width: 30%;
+        height: 30px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: left;
+    }
+    .benifits-main-img img {
+        height: 200px;
+        object-fit: cover;}
+
+
+    th,
+    td {
+        text-align: center;
+        padding: 0.8rem;
+    }
+
+
+    .table thead tr th {
+        font-size: 10px;
+        font-family: kontra-regular;
+    }
+    .table thead tr th  br{
+        display: none;
+    }
+    tbody th {
+        font-size: 10px;
+        font-family: kontra-regular;
+    }
+
+    tfoot th {
+        font-size: 10px;
+    }
+
+    .table tr td h6 {
+        font-size: 13px;
+    }
+
+    .table tr td p {
+        font-size: 11px;
+    }
+
+    .fa-check,
+    .fa-times {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 1rem;
+    }
+
+
+    /* our-solution */
+
+    .ai-driven-operation {
+        padding: 3rem 5%;
+    }
+
+
+    .ai-driven-operation h6 {
+        font-size: 1.5rem;
+    }
+
+    .software-heding {
+        font-size: 1.1rem;
+    }
+
+
+
+    .key-pointer-sub-container2-inner {
+        height: 160px;
+    }
+
+    .key-pointer-sub-container1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .key-pointer-sub-container1 {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .key-pointer-sub-container1 h1 {
+        font-size: 4rem;
+    }
+
+    .key-pointer-sub-container2 {
+        width: 100%;
+        height: 600px;
+    }
+
+}
+
+@media(max-width:576px) {
+
+
+    #croos {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-color: var(--second-color);
+        display: grid;
+        place-items: center;
+    }
+
+    /* .book-demo {
+        padding: 25.8px 24px;
+        font-size: 1.5rem;
+    } */
+
+    .book-demo::before,
+    .book-demo::after {
+        display: none;
+    }
+
+
+
+    .menu {
+        position: absolute;
+        top: 80px;
+    }
+
+
+    .banner {
+        width: 100%;
+        height: 350px;
+    }
+
+    .icon-inner {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 3%;
+    }
+
+    .icon-inner p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .project-level-container {
+        text-align: center;
+    }
+
+    .project-level-inner h5 {
+        padding-right: 0%;
+    }
+
+    .project-level-inner p {
+        padding: 0% 3%;
+    }
+
+    .project-level-inner {
+        width: 100%;
+    }
+
+
+    .services-inner1 {
+        width: 100%;
+        margin: 3rem 0;
+        text-align: center;
+    }
+
+
+    .services-inner1 h1::after {
+        left: 40%;
+        margin: 0 auto;
+        margin-top: 0.3rem;
+
+    }
+
+    .services-inner1 p {
+        padding: 0 3%;
+    }
+
+    .services-inner2:nth-child(1) img {
+        object-position: center;
+    }
+
+    .services-inner2 {
+        width: 100%;
+        height: 30.5rem;
+    }
+
+    .services-inner2:nth-child(1) {
+        order: 2;
+    }
+
+    .services-inner2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        /* padding: 5%; */
+    }
+
+    .your-class {
+        width: 90%;
+    }
+
+    .profile-text p {
+        padding: 0 5%;
+    }
+
+    .contact-container {
+        padding: 3rem 5%;
+    }
+
+
+    .mainpage-form input {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .footer-img::after {
+        position: absolute;
+        left: 32.5%;
+        content: ' ';
+        margin: 0.5rem auto;
+    }
+
+    .footer-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mainpage-form #submit {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+
+    .mainpage-form {
+        width: 90%;
+    }
+
+    .value-innerbox {
+        width: 100%;
+    }
+
+
+
+    th,
+    td {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+
+    /* about us */
+
+    .about-us-banner {
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        height: 200px;
+    }
+
+    .about-inner {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .tag-line {
+        padding: 50px 0;
+    }
+
+
+    /* our-solutions */
+
+    .our-solution-inner img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .available-logos img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .available-logos p {
+        font-size: 1rem;
+    }
+
+    .tagline-our-solution h1 {
+        font-size: 2.5rem;
+    }
+
+    .ai-driven-operation h6 {
+        font-size: 1.3rem;
+    }
+
+    .our-solution-inner {
+        width: 50%;
+    }
+
+    .our-solution-inner:nth-child(2)::after {
+        display: none;
+    }
+
+    .key-slove-issue {
+        padding: 3rem 5%;
+    }
+
+    .key-pointer-sub-container2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-solution-banner h1 br {
+        display: none;
+    }
+
+    .livsyt-available-inner {
+        width: 40%;
+    }
+
+    .livsyt-available-inner:nth-child(2) {
+        width: 20%;
+    }
+
+    /* media start */
+
+    .article{
+        height: auto;
+    }
+
+
+        /* media end */
+
+
+}
+
+@media(max-width:514px) {
+
+    .swipe-right{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+        text-align: right;
+        color: var(--second-color);
+        font-size: 1.4rem;
+        font-family: kontra-regular;
+    }
+
+    /* media page */
+
+    .heading-container h6 {
+        font-size: 1.8rem;
+}
+}
+
+
+@media(max-width:480px) {
+
+    .key-pointer-sub-container2-inner {
+        width: 100%;
+    }
+
+    .key-pointer-sub-container2-inner {
+        height: auto;
+    }
+
+    .key-pointer-sub-container2-inner::before {
+        display: none;
+    }
+
+
+    .key-pointer-sub-container2-inner::after {
+        display: none;
+    }
+
+    .available-logos img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .available-logos p {
+        font-size: 0.8rem;
+    }
+}
